@@ -63,7 +63,7 @@ public class MainController implements Initializable {
 		listView_menu.getItems().add("BOARD3");
 		
 		// 테이블뷰에 마우스 클릭 이벤트를 추가한다. - 더블클릭하면 게시판 상세내용 팝업이 뜨도록 할 예정
-		listView_menu.setOnMousePressed(new EventHandler<MouseEvent>() {
+		listView_menu.setOnMousePressed(new EventHandler<MouseEvent>() {	// 익명 클래스
 			@Override
 			public void handle(MouseEvent event) {
 				// 이벤트가 마우스 주버튼 클릭이고, 마우스 클릭수가 1번이면 더블클릭이라고 판단

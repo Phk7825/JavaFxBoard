@@ -28,3 +28,8 @@ public class Main extends Application {
 		launch(args);
 	}
 }
+
+
+//View(게시판 화면)(Main.fxml)-> Controller(MainController) -> Biz(서비스)
+//-> DAO(Java랑 DB연결된애랑 중간)(Model이라고 함)-> DB(마이바티스)board.xml
+//Model View COntrol MVC구조
